@@ -1,4 +1,4 @@
-# Cours Complet Terraform sur Azure – Guide Détaillé pour Apprenants
+# Cours Complet Terraform sur Azure
 
 ## Sommaire du Cours
 
