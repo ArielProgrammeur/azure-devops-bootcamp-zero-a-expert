@@ -1,0 +1,16 @@
+## Sommaire du Cours
+
+1. [Introduction à Terraform sur Azure](#1-introduction-à-terraform-sur-azure)
+2. [Installation et configuration professionnelle](#2-installation-et-configuration-professionnelle)
+3. [Syntaxe HCL – Pas à pas](#3-syntaxe-hcl--pas-à-pas)
+4. [Provider AzureRM en détail](#4-provider-azurerm-en-détail)
+5. [Variables, Outputs et Locals – Guide complet](#5-variables-outputs-et-locals--guide-complet)
+6. [Gestion d'État (State) – Backend Azure Storage](#6-gestion-détat-state--backend-azure-storage)
+7. [Méta-arguments expliqués](#7-méta-arguments-expliqués)
+8. [Modules – Architecture d'entreprise](#8-modules--architecture-dentreprise)
+9. [Sécurité et gestion des secrets](#9-sécurité-et-gestion-des-secrets)
+10. [Terraform Test – Valider votre infrastructure](#10-terraform-test--valider-votre-infrastructure)
+11. [Déploiement CI/CD avec Azure DevOps](#11-déploiement-cicd-avec-azure-devops)
+12. [Exemples pratiques complets](#12-exemples-pratiques-complets)
+13. [Nettoyage des ressources](#13-nettoyage-des-ressources)
+14. [Dépannage et erreurs courantes](#14-dépannage-et-erreurs-courantes)
