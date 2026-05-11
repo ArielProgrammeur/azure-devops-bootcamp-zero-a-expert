@@ -5,9 +5,14 @@
 
 variables {
   project_name        = "test"
-  environment         = "test"
+  environment         = "dev"
   resource_group_name = "rg-test-storage"
-  location            = "francecentral"
+  location            = "canadacentral"
+}
+
+# Configuration du provider pour les tests
+provider "azurerm" {
+  features {}
 }
 
 # Test 1: Création basique
