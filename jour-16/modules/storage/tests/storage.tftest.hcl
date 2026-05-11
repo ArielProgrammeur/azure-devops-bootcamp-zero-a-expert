@@ -5,7 +5,7 @@
 
 variables {
   project_name        = "test"
-  environment         = "test"
+  environment         = "dev"
   resource_group_name = "rg-test-storage"
   location            = "canadacentral"
 }
