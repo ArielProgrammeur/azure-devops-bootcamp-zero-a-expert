@@ -65,19 +65,8 @@ run "storage_name_override" {
   }
 }
 
-# Test 4: Validation des outputs
-run "outputs_validation" {
-  command = plan
-  
-  # On ne peut pas tester outputs générés par Azure au plan
-  # Donc on vérifie juste qu'ils existent dans la configuration
-  assert {
-    condition     = true
-    error_message = ""  # Pas de check réel possible
-  }
-}
 
-# Test 5: Configuration Production
+# Test 4: Configuration Production
 run "production_configuration" {
   command = plan
   
