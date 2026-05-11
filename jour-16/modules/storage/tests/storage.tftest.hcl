@@ -19,14 +19,6 @@ provider "azurerm" {
 run "basic_storage_creation" {
   command = plan 
   assert {
-    condition     = true  # impossible de vérifier le nom réel au plan
-    error_message = "Le nom du storage account ne doit pas être vide"
-  }
-  assert {
-    condition     = true  # impossible de vérifier le regex au plan
-    error_message = "Le nom du storage account ne respecte pas la convention"
-  }
-  assert {
     condition     = azurerm_storage_account.main.account_tier == "Standard"
     error_message = "Account tier doit être Standard par défaut"
   }
